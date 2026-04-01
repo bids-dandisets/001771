@@ -3,30 +3,61 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
+acknowledgement: 'Funding source: Protocol Labs'
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 1007018533
+  numberOfFiles: 7
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
-citation: Hardcastle, Kiah (2026) Chronic Neuropixels recordings with 3D pose estimation
-  via DANNCE during spontaneous exploration (Version draft) [Data set]. DANDI Archive.
-  https://dandiarchive.org/dandiset/001771/draft
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
+    name: Rattus norvegicus - Norway rat
+    schemaKey: SpeciesType
+  variableMeasured:
+  - Units
+  - ProcessingModule
+citation: Hardcastle, Kiah; Protocol Labs (2026) Chronic Neuropixels recordings with
+  3D pose estimation via DANNCE during spontaneous exploration (Version draft) [Data
+  set]. DANDI Archive. https://dandiarchive.org/dandiset/001771/draft
 contributor:
 - affiliation: []
   email: kiahhardcastle@gmail.com
+  identifier: 0000-0002-2337-9290
   includeInCitation: true
   name: Hardcastle, Kiah
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- email: contact@protocol.ai
+  includeInCitation: true
+  name: Protocol Labs
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: http://protocol.ai
 dateCreated: '2026-03-27T19:12:15.877910+00:00'
 description: This dataset contains (1) Kilosorted data from chronically implanted
   Neuropixels probe(s), (2) video data from 6 Basler cameras with synchronized frames,
   (3) 3D keypoint positions of 20 keypoints across the entire body as estimated by
   DANNCE. This data is collected from a Long Evans rat as she spontaneously explores
   a ~1m diameter open arena. Data collected in Bence Ölveckzy's laboratory.
+ethicsApproval: []
 id: DANDI:001771/draft
 identifier: DANDI:001771
 license:
@@ -35,8 +66,10 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001771/versions/draft/assets/
 name: Chronic Neuropixels recordings with 3D pose estimation via DANNCE during spontaneous
   exploration
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
 url: https://dandiarchive.org/dandiset/001771/draft
 version: draft
+wasGeneratedBy: []
