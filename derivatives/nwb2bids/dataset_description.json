@@ -1,0 +1,19 @@
+{
+    "Name": "Chronic Neuropixels recordings with 3D pose estimation via DANNCE during spontaneous exploration",
+    "BIDSVersion": "1.10",
+    "HEDVersion": "8.3.0",
+    "Description": "This dataset contains (1) Kilosorted data from chronically implanted Neuropixels probe(s), (2) video data from 6 Basler cameras with synchronized frames, (3) 3D keypoint positions of 20 keypoints across the entire body as estimated by DANNCE. This data is collected from a Long Evans rat as she spontaneously explores a ~1m diameter open arena. Data collected in Bence \u00d6lveckzy's laboratory.",
+    "DatasetType": "derivative",
+    "Authors": [
+        "Hardcastle, Kiah"
+    ],
+    "License": "CC-BY-4.0",
+    "GeneratedBy": [
+        {
+            "Name": "nwb2bids",
+            "Version": "0.12.1.dev6+gf29fa0039",
+            "Description": "Tool to reorganize NWB files into a BIDS directory layout.",
+            "CodeURL": "https://github.com/con/nwb2bids"
+        }
+    ]
+}
