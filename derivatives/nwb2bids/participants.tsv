@@ -1,2 +1,2 @@
-participant_id	species	sex
-sub-Neuropixels1_Rat1	Rattus norvegicus	F
+participant_id	original_participant_id	species	sex
+sub-Neuropixels1+Rat1	sub-Neuropixels1_Rat1	Rattus norvegicus	F
